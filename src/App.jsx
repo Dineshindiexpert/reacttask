@@ -3,12 +3,12 @@ import './App.css'
 // Note the curly braces for Template and Container
 
 import Profile, { Template, Container } from './components/profile'
-import {Avatarcombo, Avatar} from './components/task2'
+import {Avatarcombo, Avatar,Imagepicker} from './components/task2'
 
 function App() {
   return (
     <>
-    <div className='d-flex flex-column align-items-center position-absolute top-50 start-50 translate-middle' style={{minWidth: '300px'}}>
+    <div className="d-flex flex-column justify-content-center ms-5">
       <div>
         <h1>Task 1 is here :</h1>
         <Container/> 
@@ -16,6 +16,10 @@ function App() {
       <div>
           <h1>Task 2 is here:</h1>
           <Avatarcombo/>
+      </div>
+      <div><hr /></div>
+      <div>
+        <Imagepicker index={0}/>
       </div>
     </div>
       
