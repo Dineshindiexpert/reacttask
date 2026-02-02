@@ -14,3 +14,6 @@ body{
 .form-check-input[type=checkbox] {
     border-radius: 2.25em;
 }
+.input-group{
+  height: 60px;
+}
