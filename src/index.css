@@ -1,11 +1,16 @@
 *{
   box-sizing: border-box;
 }
-hr{
+/* hr{
   height: 20px;
   background: rgb(0, 0, 0);
   opacity: .75;
-}
+} */
 body{
-  background: linear-gradient(#8f8686, #cbb5b5);
+  background: linear-gradient(#e5e2e2, #ffffff);
+}
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url("https://img.icons8.com/?size=32&id=cL95UuXTO0nU&format=png")}
+.form-check-input[type=checkbox] {
+    border-radius: 2.25em;
 }
