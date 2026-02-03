@@ -31,8 +31,8 @@ export default function TodoList() {
 
     return (
         <div className="d-flex justify-content-center m-5 ">
-            <div className="card bg-dark" style={{ minWidth: "100%" }}>
-                <div className="card-header text-white text-center">
+            <div className="card " style={{ minWidth: "100%" }}>
+                <div className="card-header  text-center">
                     <h1>To-Do List</h1>
                 </div>
                 <div className="card-body">
