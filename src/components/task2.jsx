@@ -1,7 +1,7 @@
 import { Profile1 } from "./profile";
 
 // 1. Set defaults directly in the arguments
-export const Avatar = ({index = 0,databaseimage ="null",databaseprofile ="null"}) => {
+export const Avatar = ({index =1,databaseimage ="null",databaseprofile ="null"}) => {
     // 2. Access the data AFTER the defaults are established
     const image = databaseimage[index];
     const profile = databaseprofile[index];
@@ -15,7 +15,7 @@ export const Avatar = ({index = 0,databaseimage ="null",databaseprofile ="null"}
         <div className="container my-4 d-flex justify-content-center py-2">
             <div className="card shadow" style={{ width: "50rem" }}>
                 <div className="card-header bg-dark text-white text-center fw-bold fs-5">
-                    User Profile {index +1}
+                    User Profile {index+1}
                 </div>
                 <div className="card-body p-0">
                     <table className="table table-bordered table-dark mb-0 align-middle">
@@ -68,4 +68,4 @@ export const Imagepicker = ({ index = 0, databaseimage = [] }) => {
 
 
 
- 
+//  AIzaSyDv01jowSSiUUlui1U2LzDUnJtuBbH-xEw
