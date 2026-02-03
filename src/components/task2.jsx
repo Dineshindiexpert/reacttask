@@ -68,4 +68,3 @@ export const Imagepicker = ({ index = 0, databaseimage = [] }) => {
 
 
 
-//  AIzaSyDv01jowSSiUUlui1U2LzDUnJtuBbH-xEw
