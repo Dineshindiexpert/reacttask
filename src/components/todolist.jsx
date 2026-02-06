@@ -9,7 +9,7 @@ export default function TodoList() {
             case "ADD_TASK":
                 return [...state, { text: action.taskname, completed: false }];
             case "TOGGLE_TASK":
-                // console.log(index.action);
+                
         
                 return state.map((task, index) =>
                     index === action.index ? { ...task, completed: !task.completed } : task
@@ -30,8 +30,8 @@ export default function TodoList() {
     };
 
     return (
-        <div className="d-flex justify-content-center m-5 ">
-            <div className="card " style={{ minWidth: "100%" }}>
+        <div className="container">
+            <div className="card" style={{ maxWidth: "100%" }}>
                 <div className="card-header  text-center">
                     <h1>To-Do List</h1>
                 </div>
